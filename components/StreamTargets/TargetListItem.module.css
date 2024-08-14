@@ -1,0 +1,16 @@
+.scbars {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(132, 132, 132) rgb(55, 55, 55);
+}
+.scbars::-webkit-scrollbar {
+  width: 3px;
+}
+.scbars::-webkit-scrollbar-track {
+  background: rgba(158, 158, 158, 0);
+}
+.scbars::-webkit-scrollbar-thumb {
+  background-color: pink;
+  border-radius: 6px;
+  border: 3px solid rgb(97, 97, 97);
+  
+}

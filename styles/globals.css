@@ -1,0 +1,178 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: #13161e;
+}
+.left-side {
+    margin-left: 47px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.p1 {
+    color: #FFF;
+    width: 613px;
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.p2 {
+    width: 469px;
+    height: 59px;
+    color: #ADADAD;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.facebook {
+    width: 146px;
+    height: 109px;
+    transform: rotate(-19.331deg);
+    flex-shrink: 0;
+    border-radius: 3px;
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.05);
+    margin-top: 60px;
+}
+
+.facebook svg {
+    width: 80.566px;
+    height: 51.579px;
+    transform: rotate(17.745deg);
+    flex-shrink: 0;
+    top: 150px;
+}
+
+
+.youtube {
+    position: relative;
+    width: 146px;
+    height: 109px;
+    transform: rotate(0.418deg);
+    flex-shrink: 0;
+    border-radius: 3px;
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.05);
+    top: -130px;
+    left: 260px;
+}
+
+.youtube svg {
+    width: 80.566px;
+    height: 51.579px;
+    transform: rotate(1.388deg);
+    flex-shrink: 0;
+}
+
+
+.insta {
+    width: 146px;
+    height: 109px;
+    transform: rotate(0.418deg);
+    flex-shrink: 0;
+    border-radius: 3px;
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.05);
+    margin-top: -30px;
+    margin-bottom: 80px;
+    margin-left: 60px;
+}
+
+.insta svg {
+    width: 80.566px;
+    height: 51.579px;
+    flex-shrink: 0;
+}
+
+
+.srt {
+    width: 146px;
+    height: 109px;
+    transform: rotate(0.418deg);
+    flex-shrink: 0;
+    border-radius: 3px;
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.05);
+    margin-left: 300px;
+    margin-top: -230px;
+    margin-bottom: 100px;
+}
+
+.srt svg {
+    width: 80.566px;
+    height: 51.579px;
+    flex-shrink: 0;
+}
+
+.srt p {
+    color: white;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 30%;
+    color: #5BE369; 
+    margin-bottom: 60;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.v1, .v2, .v3, .v4 {
+  position: absolute;
+    width: 1px;
+    background-color: red;
+}
+
+.v1 {
+    top: 55%;
+    left: 22%;
+    transform: translateX(-50%);
+    height: 188px;
+    transform: rotate(-20deg);
+}
+
+.v2 {
+    top: 76.8%;
+    left: 15.8%;
+    transform: translateX(-50%);
+    height: 199px;
+    transform: rotate(-105deg);
+}
+
+.v3 {
+    top: 73.4%;
+    left: 34.6%;
+    transform: translateX(-50%);
+    height: 199px;
+    transform: rotate(95deg);
+}
+
+.v4 {
+    top: 92%;
+    left: 26.0%;
+    transform: translateX(-50%);
+    height: 230px;
+    transform: rotate(175deg);
+}
